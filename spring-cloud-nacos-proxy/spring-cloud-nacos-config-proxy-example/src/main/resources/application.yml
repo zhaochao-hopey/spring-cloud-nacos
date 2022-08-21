@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-proxy
+  cloud:
+    nacos:
+      config:
+        accessKey: nacos
+        secretKey: $2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2kuWj7VEOJhhZkDrxfvUu
+        serverAddr: localhost:8848
